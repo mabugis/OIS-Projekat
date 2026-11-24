@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CFzJYfcZ8dzoP3ZmLXyZ">
+    <mxGraphModel dx="2524" dy="2337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ai51qTELMxHdBpdajDtp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1240" width="1010" x="-80" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Planiranje inspekcije&amp;nbsp;" vertex="1">
+          <mxGeometry height="1070" width="760" x="50" y="20" as="geometry">
+            <mxRectangle height="30" width="70" x="110" y="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-2" parent="5fR9s10Pybc2C18coCem-1" style="swimlane;startSize=20;html=1;" value="Koordinator inspekcija" vertex="1">
+          <mxGeometry height="1050" width="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-11" edge="1" parent="5fR9s10Pybc2C18coCem-2" source="5fR9s10Pybc2C18coCem-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-6" parent="5fR9s10Pybc2C18coCem-2" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="170" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-9" parent="5fR9s10Pybc2C18coCem-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Odaberi termin inspekcije" vertex="1">
+          <mxGeometry height="60" width="235" x="65" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-7" parent="5fR9s10Pybc2C18coCem-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Otvori potpun zahtjev i pokreni planiranje" vertex="1">
+          <mxGeometry height="60" width="235" x="67.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-12" edge="1" parent="5fR9s10Pybc2C18coCem-1" source="5fR9s10Pybc2C18coCem-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-3" parent="5fR9s10Pybc2C18coCem-1" style="swimlane;startSize=20;html=1;" value="Sistem DroneInspect" vertex="1">
+          <mxGeometry height="1050" width="360" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-8" parent="5fR9s10Pybc2C18coCem-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Kreiraj zapis inspekcije povezan sa zahtjevom" vertex="1">
+          <mxGeometry height="60" width="235" x="60" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-14" edge="1" parent="5fR9s10Pybc2C18coCem-3" source="5fR9s10Pybc2C18coCem-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-41" parent="5fR9s10Pybc2C18coCem-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Provjeri preklapanje termina za operatera i dron" vertex="1">
+          <mxGeometry height="50" width="235" x="72.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-16" parent="5fR9s10Pybc2C18coCem-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Resursi dostupni" vertex="1">
+          <mxGeometry height="80" width="89.37" x="145.30999999999995" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-11" edge="1" parent="5fR9s10Pybc2C18coCem-1" source="5fR9s10Pybc2C18coCem-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-16" edge="1" parent="5fR9s10Pybc2C18coCem-1" source="5fR9s10Pybc2C18coCem-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-9">
+          <mxGeometry relative="1" x="-0.0319" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="670" />
+              <mxPoint x="30" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-17" connectable="0" parent="ai51qTELMxHdBpdajDtp-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Ne" vertex="1">
+          <mxGeometry relative="1" x="-0.4573" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-12" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Prikaži raspoloživost operatera i dronova" vertex="1">
+          <mxGeometry height="60" width="235" x="510" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-10" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-13" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Dodijeli operatera, dron i tehničkog inspektora" vertex="1">
+          <mxGeometry height="50" width="235" x="115" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-28" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Obavijesti klijenta i operatera" vertex="1">
+          <mxGeometry height="60" width="235" x="522.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-27" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="625" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-20" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5fR9s10Pybc2C18coCem-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Spremi raspored i postavi status „Zakazana“" vertex="1">
+          <mxGeometry height="60" width="235" x="522.5" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-18" edge="1" parent="1" source="5fR9s10Pybc2C18coCem-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5fR9s10Pybc2C18coCem-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai51qTELMxHdBpdajDtp-19" connectable="0" parent="ai51qTELMxHdBpdajDtp-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Da" vertex="1">
+          <mxGeometry relative="1" x="-0.2204" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
